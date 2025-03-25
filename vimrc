@@ -47,12 +47,8 @@ set background=dark
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
 inoremap { {}<left>
-inoremap < <><left>
-inoremap {<CR> {<CR>}<ESC>O
+inoremap {<CR> {<CR>}<Esc>ko
+inoremap {;<CR> {<CR>};<Esc>ko
 inoremap {;<CR> {<CR>};<ESC>O
 inoremap ~~ \
